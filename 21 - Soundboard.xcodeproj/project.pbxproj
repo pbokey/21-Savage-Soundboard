@@ -19,8 +19,8 @@
 		81C697E01D9723850000005C /* its_a_knife.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81C697DF1D9723850000005C /* its_a_knife.mp3 */; };
 		81C697E31D9725440000005C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C697E21D9725440000005C /* AVFoundation.framework */; };
 		81C697E51D9725520000005C /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81C697E41D9725520000005C /* AudioToolbox.framework */; };
-		81C697E71D972C6E0000005C /* 21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81C697E61D972C6E0000005C /* 21.mp3 */; };
 		81DE42671D97366E00AD77BE /* 21_savage.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81DE42661D97366E00AD77BE /* 21_savage.mp3 */; };
+		81E04BD71D974C0400BE1E7C /* 21.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 81E04BD61D974C0400BE1E7C /* 21.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,8 +59,8 @@
 		81C697DF1D9723850000005C /* its_a_knife.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = its_a_knife.mp3; path = "21 - Soundboard (2)/its_a_knife.mp3"; sourceTree = "<group>"; };
 		81C697E21D9725440000005C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		81C697E41D9725520000005C /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
-		81C697E61D972C6E0000005C /* 21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 21.mp3; path = "../21 - Soundboard/21.mp3"; sourceTree = "<group>"; };
 		81DE42661D97366E00AD77BE /* 21_savage.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = 21_savage.mp3; path = "21 - Soundboard (2)Tests/21_savage.mp3"; sourceTree = "<group>"; };
+		81E04BD61D974C0400BE1E7C /* 21.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 21.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,12 +94,12 @@
 			isa = PBXGroup;
 			children = (
 				81C697E11D9725430000005C /* Frameworks */,
+				81E04BD61D974C0400BE1E7C /* 21.mp3 */,
 				81C697DF1D9723850000005C /* its_a_knife.mp3 */,
-				81C697E61D972C6E0000005C /* 21.mp3 */,
 				81DE42661D97366E00AD77BE /* 21_savage.mp3 */,
 				81601D7D1D97424200F5B869 /* atlanta@2x.jpg */,
-				81C697AD1D971DA00000005C /* 21 - Soundboard (2) */,
-				81C697C51D971DA00000005C /* 21 - Soundboard (2)Tests */,
+				81C697AD1D971DA00000005C /* 21 - Soundboard */,
+				81C697C51D971DA00000005C /* 21 - Soundboard Tests */,
 				81C697D01D971DA00000005C /* 21 - Soundboard (2)UITests */,
 				81C697AC1D971DA00000005C /* Products */,
 			);
@@ -115,7 +115,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		81C697AD1D971DA00000005C /* 21 - Soundboard (2) */ = {
+		81C697AD1D971DA00000005C /* 21 - Soundboard */ = {
 			isa = PBXGroup;
 			children = (
 				81C697AE1D971DA00000005C /* AppDelegate.swift */,
@@ -126,15 +126,17 @@
 				81C697BD1D971DA00000005C /* Info.plist */,
 				81C697B51D971DA00000005C /* _1___Soundboard__2_.xcdatamodeld */,
 			);
+			name = "21 - Soundboard";
 			path = "21 - Soundboard (2)";
 			sourceTree = "<group>";
 		};
-		81C697C51D971DA00000005C /* 21 - Soundboard (2)Tests */ = {
+		81C697C51D971DA00000005C /* 21 - Soundboard Tests */ = {
 			isa = PBXGroup;
 			children = (
 				81C697C61D971DA00000005C /* _1___Soundboard__2_Tests.swift */,
 				81C697C81D971DA00000005C /* Info.plist */,
 			);
+			name = "21 - Soundboard Tests";
 			path = "21 - Soundboard (2)Tests";
 			sourceTree = "<group>";
 		};
@@ -241,7 +243,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 81C697A61D971DA00000005C /* Build configuration list for PBXProject "21 - Soundboard (2)" */;
+			buildConfigurationList = 81C697A61D971DA00000005C /* Build configuration list for PBXProject "21 - Soundboard" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -267,7 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81DE42671D97366E00AD77BE /* 21_savage.mp3 in Resources */,
-				81C697E71D972C6E0000005C /* 21.mp3 in Resources */,
+				81E04BD71D974C0400BE1E7C /* 21.mp3 in Resources */,
 				81C697BC1D971DA00000005C /* LaunchScreen.storyboard in Resources */,
 				81C697E01D9723850000005C /* its_a_knife.mp3 in Resources */,
 				81C697B91D971DA00000005C /* Assets.xcassets in Resources */,
@@ -532,7 +534,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81C697A61D971DA00000005C /* Build configuration list for PBXProject "21 - Soundboard (2)" */ = {
+		81C697A61D971DA00000005C /* Build configuration list for PBXProject "21 - Soundboard" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81C697D41D971DA00000005C /* Debug */,
